@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninaivu Thottam | Thirukkural 108</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">🌱 Ninaivu Thottam</div>
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#game">Play</a>
+        <a href="#meaning">Meaning</a>
+    </div>
+</nav>
+
+<section class="hero" id="home">
+    <div class="hero-text">
+        <p class="small-title">THIRUKKURAL • 108</p>
+
+        <h1>
+            Remember the <span>Good.</span><br>
+            Release the Bad.
+        </h1>
+
+        <p class="tamil">
+            நன்றி மறப்பது நன்றன்று நன்றல்லது<br>
+            அன்றே மறப்பது நன்று
+        </p>
+
+        <p class="description">
+            Some memories deserve to stay. Some memories deserve to be released.
+            This interactive garden turns Thirukkural 108 into a simple game.
+        </p>
+
+        <button class="main-btn" onclick="goToGame()">
+            🌱 Enter Your Garden
+        </button>
+    </div>
+
+    <div class="quote-card">
+        <div class="quote-mark">“</div>
+
+        <p>
+            நன்றி மறப்பது நன்றன்று நன்றல்லது<br>
+            அன்றே மறப்பது நன்று
+        </p>
+
+        <small>— திருக்குறள் 108</small>
+
+        <div class="symbols">🌸 🍂 🌱</div>
+    </div>
+</section>
+
+<section class="game-section" id="game">
+    <div class="title">
+        <p class="small-title">INTERACTIVE GAME</p>
+        <h2>🌿 Grow Your Memory Garden</h2>
+        <p>Remember good things. Let bad things go.</p>
+    </div>
+
+    <div class="score">
+        <div class="score-box">
+            <p>🌸 Good Memories</p>
+            <h3 id="goodScore">0</h3>
+        </div>
+
+        <div class="score-box">
+            <p>🍂 Released</p>
+            <h3 id="badScore">0</h3>
+        </div>
+
+        <div class="score-box">
+            <p>🌱 Level</p>
+            <h3 id="level">Seed</h3>
+        </div>
+    </div>
+
+    <div class="game-area">
+        <div class="instructions">
+            <h2>🎮 How To Play</h2>
+
+            <p>🌸 Click a flower to remember something good.</p>
+            <p>🍂 Click a leaf to release something negative.</p>
+            <p>🌳 Your garden grows as you make choices.</p>
+
+            <button class="start-btn" onclick="startGame()">
+                ▶ START GAME
+            </button>
+        </div>
+
+        <div class="garden" id="garden">
+            <div class="sun">☀️</div>
+
+            <div class="message" id="message">
+                Click START GAME 🌱
+            </div>
+
+            <div class="tree" id="tree">🌳</div>
+        </div>
+    </div>
+</section>
+
+<section class="meaning" id="meaning">
+    <div class="title">
+        <p class="small-title">THE IDEA</p>
+        <h2>What does the Kural teach?</h2>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <div class="emoji">🌸</div>
+            <h3>Remember Goodness</h3>
+            <p>
+                When somebody helps us, supports us or does something good
+                for us, we should remember their kindness.
+            </p>
+            <strong>GRATITUDE</strong>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🍂</div>
+            <h3>Release Negativity</h3>
+            <p>
+                When something bad happens, we should not carry it forever.
+                Learn to let it go.
+            </p>
+            <strong>LET GO</strong>
+        </div>
+    </div>
+</section>
+
+<footer>
+    🌱 Ninaivu Thottam
+    <br><br>
+    Inspired by Thirukkural 108
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
